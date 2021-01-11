@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class AdGenerator {
+	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+		System.out.println("Welcome to AdGenerator!");
+		System.out.println("Please enter your profile information.");
+		System.out.println("======================================\n");
+		System.out.println("first name: ");
+		String firstName = input.nextLine();
+		System.out.println(firstName);
+		input.close();
+	}
+}

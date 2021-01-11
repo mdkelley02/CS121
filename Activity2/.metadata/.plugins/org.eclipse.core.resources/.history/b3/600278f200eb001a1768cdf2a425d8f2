@@ -1,0 +1,13 @@
+
+public class MyTempConverter {
+	public static void main(String[] args) {
+		System.out.println(convert(87));
+	}
+	public static float convert(float f) {
+		final float CONSTANT = 5/9;
+		final float SUBTRACTION = f - 32;
+		float temp = SUBTRACTION * CONSTANT;
+		return temp;
+	}
+
+}

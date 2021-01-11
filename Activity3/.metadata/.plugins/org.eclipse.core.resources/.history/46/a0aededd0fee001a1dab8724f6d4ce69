@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class ConvertToHMS {
+	public static void main(String[] args)
+	{
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Please enter seconds as an integer.");
+		int input = scanner.nextInt();
+		System.out.println(Convert(input));
+	}
+	public static String Convert(int inputSeconds) 
+	{
+		int minutes = (int)(inputSeconds / 60);
+		int remainderMinutes = inputSeconds % 60;
+		return "Minutes: " minutes + " Remainder minutes: "+  remainderMinutes;
+	}
+}

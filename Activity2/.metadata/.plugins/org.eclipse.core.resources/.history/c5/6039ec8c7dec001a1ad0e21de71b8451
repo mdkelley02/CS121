@@ -1,0 +1,15 @@
+
+public class MyTempConverter {
+	public static void main(String[] args) {
+		System.out.println(convert(87));
+		boolean bob = true;
+		if (bob){
+			System.out.println("its true");
+		}
+	}
+	public static double convert(float f) {
+		float temp = (f-32) * ((float)5/9);
+		return temp;
+	}
+
+}

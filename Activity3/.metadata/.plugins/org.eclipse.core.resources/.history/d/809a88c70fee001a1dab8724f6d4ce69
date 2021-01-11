@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class ConvertToHMS {
+	public static void main(String[] args)
+	{
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Please enter seconds as an integer.");
+		int input = scanner.nextInt();
+		System.out.println(input);
+	}
+
+}
